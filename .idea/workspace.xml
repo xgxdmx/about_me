@@ -2,41 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b641919b-04bb-4edb-9062-e77172f04424" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/about_me.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/css/snow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/img/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/img/10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/img/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/img/12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/img/13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/img/14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/img/15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/img/16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/img/17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/img/18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/img/19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/img/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/img/20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/img/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/img/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/img/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/img/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/img/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/img/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/img/9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/js/aplayer.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/js/snow.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +24,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/statics/img" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\wordpress主题\about_me\statics\img" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -69,7 +41,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578227749803</updated>
-      <workItem from="1578227754225" duration="3487000" />
+      <workItem from="1578227754225" duration="4697000" />
     </task>
     <servers />
   </component>

@@ -20,6 +20,11 @@
             margin: 1%;
             padding: 1%;
         }
+        .aplayer.aplayer-fixed{
+        	z-index: 9999999 !important;
+        }
+        /*悼念模式*/
+/*        html{filter: grayscale(100%);-webkit-filter: grayscale(100%);-moz-filter: grayscale(100%);-ms-filter: grayscale(100%);-o-filter: grayscale(100%);filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);filter: gray;-webkit-filter: grayscale(1);}*/
     </style>
     <script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/xgxdmx/about_me@latest/statics/js/aplayer.min.js"></script>
@@ -55,7 +60,7 @@
                         <a goto="#about">ABOUT</a>
                     </li>
                     <li>
-                        <a goto="#donate">DONATE</a>
+                        <a goto="#donate">SERVICE</a>
                     </li>
                 </ul>
                 <div class="copyright">
@@ -129,13 +134,13 @@
                 <section id="donate">
                     <h1>梦の彼方</h1>
                     <div class="items">
-                        <a href="https://www.xgxdmx.cn" rel="noopener">
-                            <i class="fas fa-globe-asia"></i>
-                            <span>梦之境</span>
-                        </a>
                         <a href="https://img.xgxdmx.com" target="_blank" rel="noopener">
                             <i class="fas fa-images"></i>
                             <span>图床</span>
+                        </a>
+                        <a href="https://squoosh.xgxdmx.com" target="_blank" rel="noopener">
+                            <i class="far fa-file-image"></i>
+                            <span>Squoosh(在线图片格式转换)</span>
                         </a>
                         <a href="https://cloud.xgxdmx.com" target="_blank" rel="noopener">
                             <i class="fas fa-cloud"></i>
@@ -145,8 +150,8 @@
                             <i class="fas fa-music"></i>
                             <span>MK在线音乐平台</span>
                         </a>
-                        <a href="https://xgxdmx.com/surprises/music_game/" target="_blank" rel="noopener">
-                            <i class="fas fa-gamepad"></i>
+                        <a href="https://xgxdmx.com/fakeupdate/" target="_blank" rel="noopener">
+                            <i class="fas fa-spinner"></i>
                             <span>音乐游戏</span>
                         </a>
                         <a href="https://xgxdmx.com/surprises/simulation/" target="_blank" rel="noopener">
@@ -159,18 +164,21 @@
         </div>
         <footer>
             <p id="hitokoto">Loading...</p>
+            <script type="text/javascript" src="https://v1.hitokoto.cn/?encode=js&charset=utf-8&select=%23hitokoto"></script>
             <div class="copyright-mobile">
                 Made with
                 <i class="fa fa-heart"></i> by
                 <a href="https://fly.moe" target="_blank">Fly3949</a>
             </div>
         </footer>
+        <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="eb17147a-67a5-4eb5-8107-3c3ca862e3f9";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();
+    	</script>
         <div class="aplayer-footer">
             <div class="ap-f" id="ap-f"></div>
             <script>
                 $(function(){
                     $.ajax({
-                        url:"https://api.fczbl.vip/163/?type=playlist&id=782407256",
+                        url:"https://api.i-meto.com/meting/api?server=tencent&type=playlist&bitrate=320&id=1573322474",
                         success:function(e){
                             var a = new APlayer({
                                 element:document.getElementById("ap-f"),
@@ -179,6 +187,7 @@
                                 loop:"all",
                                 order:"random",
                                 listFolded:true,
+                                volume: 1,
                                 showlrc:3,
                                 theme:"#e6d0b2",
                                 listmaxheight:"200px",
@@ -193,7 +202,7 @@
         </div>
     </main>
     <script src="https://cdn.jsdelivr.net/gh/xgxdmx/about_me@latest/statics/js/main.js"></script>
-	<canvas id="Snow"></canvas>
+<!-- 	<canvas id="Snow"></canvas> -->
 	<script src="https://cdn.jsdelivr.net/gh/xgxdmx/about_me@latest/statics/js/snow.js"></script>
   </body>
 </html>
